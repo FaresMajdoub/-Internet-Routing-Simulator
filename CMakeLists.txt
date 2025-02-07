@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(tp2-reseau-ip-CollectorsObservatory)
+project(Internet-Routing-Simulator)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -13,7 +13,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
-add_executable(tp2-reseau-ip-CollectorsObservatory
+add_executable(Internet-Routing-Simulator
         ContratException.cpp
         ContratException.h
         Routeur.cpp
